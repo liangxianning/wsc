@@ -1,0 +1,39 @@
+/**设置背景颜色**/
+.root{
+    -fx-background-color:#ffffff;
+}
+/**设置Label样式**/
+.label {
+    -fx-font-size: 12px;
+    -fx-text-fill: #999999;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+/**设置HBox背景样式 bg是自定义的class**/
+.bg{
+    -fx-background-color:#EAECEE;
+}
+.radius{
+    /*设置圆角*/
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}
+
+.separator .line {
+    -fx-border-width: 2.0;
+}
+
+.list-cell{
+    -fx-font-family: Arial;
+    -fx-pref-height: 30px;
+}
+
+.menu{
+    -fx-font-size: 12px;
+    -fx-text-fill: #999999;
+    -fx-border-width: 0;
+}
+
+.menu:hover{
+    -fx-text-fill: white;
+}
